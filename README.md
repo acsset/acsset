@@ -6,16 +6,16 @@ breve introdução
 *Texto Itálico*
 link: http://github.com ou [GitHub](http://github.com)
 
-Lista
+###Lista
 1. Item 1
   1. Sub Item 1
   2. Sub Item 2
   3. Sub Item 3
   4. Sub Item 4
 2. Item 2
-  - Sub Item A
-  - Sub Item B
-  - Sub Item C 
+  * Sub Item A
+  * Sub Item B
+  * Sub Item C 
 
 
 ##Estrutura
