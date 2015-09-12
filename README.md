@@ -2,8 +2,20 @@
 [imagem]
 breve introdução
 
-##Framework CSS
+**Texto Negrito**
+*Texto Itálico*
+link: http://github.com ou [GitHub](http://github.com)
 
+Lista
+1. Item 1
+  1. Sub Item 1
+  2. Sub Item 2
+  3. Sub Item 3
+  4. Sub Item 4
+2. Item 2
+  - Sub Item A
+  - Sub Item B
+  - Sub Item C 
 
 
 ##Estrutura
@@ -13,24 +25,65 @@ breve introdução
 .grid-row{margin:0 -10px 10px;width: 960px;}
 .grid-row:after{content:"";display:table;clear:both;}
 
-.grid-1,.grid-2,.grid-3,.grid-4,.grid-5,.grid-6,.grid-7,.grid-8,.grid-9,.grid-10,.grid-11,.grid-12{display:inline;float:left;margin-left:10px;margin-right:10px;}
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12 {
+  display:inline;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
 
-.grid-row .grid-1{width: 60px;}
-.grid-row .grid-2{width: 140px;}
-.grid-row .grid-3{width: 220px;}
-.grid-row .grid-4{width: 300px;}
-.grid-row .grid-5{width: 380px;}
-.grid-row .grid-6{width: 460px;}
-.grid-row .grid-7{width: 540px;}
-.grid-row .grid-8{width: 620px;}
-.grid-row .grid-9{width: 700px;}
-.grid-row .grid-10{width: 780px;}
-.grid-row .grid-11{width: 860px;}
-.grid-row .grid-12{width: 940px;}
+.grid-row .grid-1 {
+  width: 60px;
+}
+
+.grid-row .grid-2 {
+  width: 140px;
+}
+.grid-row .grid-3 {
+  width: 220px;
+}
+.grid-row .grid-4 {
+  width: 300px;
+}
+.grid-row .grid-5 {
+  width: 380px;
+}
+.grid-row .grid-6 {
+  width: 460px;
+}
+.grid-row .grid-7 {
+  width: 540px;
+}
+.grid-row .grid-8 {
+  width: 620px;
+}
+.grid-row .grid-9 {
+  width: 700px;
+}
+.grid-row .grid-10 {
+  width: 780px;
+}
+.grid-row .grid-11 {
+  width: 860px;
+}
+.grid-row .grid-12 {
+  width: 940px;
+}
 ```
 
 
-##Normalizacao
+##Normalização
 ```
 html {}
 body {}
