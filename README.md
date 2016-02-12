@@ -25,65 +25,26 @@ breve introdução
 ##<a name="Grid"></a>Estrutura
 
 ###GRID
+![GRID](https://cloud.githubusercontent.com/assets/7061081/13009120/bf71b7b4-d181-11e5-8a25-5b4ddd350398.jpg)
 ```
-.grid-row{margin:0 -10px 10px;width: 960px;}
-.grid-row:after{content:"";display:table;clear:both;}
+<!-- GRID de 1 Colunas -->
+<div class="grid-row">
+  <div class="grid-12"></div>
+</div>
 
-.grid-1,
-.grid-2,
-.grid-3,
-.grid-4,
-.grid-5,
-.grid-6,
-.grid-7,
-.grid-8,
-.grid-9,
-.grid-10,
-.grid-11,
-.grid-12 {
-  display:inline;
-  float:left;
-  margin-left:10px;
-  margin-right:10px;
-}
+<!-- GRID de 2 Colunas -->
+<div class="grid-row">
+  <div class="grid-3"></div>
+  <div class="grid-9"></div>
+</div>
 
-.grid-row .grid-1 {
-  width: 60px;
-}
-
-.grid-row .grid-2 {
-  width: 140px;
-}
-.grid-row .grid-3 {
-  width: 220px;
-}
-.grid-row .grid-4 {
-  width: 300px;
-}
-.grid-row .grid-5 {
-  width: 380px;
-}
-.grid-row .grid-6 {
-  width: 460px;
-}
-.grid-row .grid-7 {
-  width: 540px;
-}
-.grid-row .grid-8 {
-  width: 620px;
-}
-.grid-row .grid-9 {
-  width: 700px;
-}
-.grid-row .grid-10 {
-  width: 780px;
-}
-.grid-row .grid-11 {
-  width: 860px;
-}
-.grid-row .grid-12 {
-  width: 940px;
-}
+<!-- GRID de 4 Colunas -->
+<div class="grid-row">
+  <div class="grid-4"></div>
+  <div class="grid-4"></div>
+  <div class="grid-4"></div>
+  <div class="grid-4"></div>
+</div>
 ```
 
 
