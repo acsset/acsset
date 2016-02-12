@@ -1,24 +1,28 @@
-# framework-css
+# FRAMEWORK-CSS
 [imagem]
 breve introdução
 
-**Texto Negrito**
-*Texto Itálico*
-link: http://github.com ou [GitHub](http://github.com)
 
-###Lista
-1. Item 1
-  1. Sub Item 1
-  2. Sub Item 2
-  3. Sub Item 3
-  4. Sub Item 4
-2. Item 2
-  * Sub Item A
-  * Sub Item B
-  * Sub Item C 
+##Índice
 
+ - [Grid](#Grid)
+ - [Tables](#Tables)
+ - [Títulos](#Titulos)
+ - [Subtítulos](#Subtitulos)
+ - [Background](#Background)
+ - [Textos](#Textos)
+ - [Bordas](#Bordas)
+ - [Breadcrumbs](#Breadcrumbs)
+ - [Callouts](#Callouts)
+ - [Tags](#Tags)
+ - [Paginação](#Paginacao)
+ - [Accordion](#Accordion)
+ - [Tabs](#Tabs)
+ - [Buttons](#Buttons)
+ - [Ícones](#Icones)
+ - [Plugins](#Plugins)
 
-##Estrutura
+##<a name="Grid"></a>Estrutura
 
 ###GRID
 ```
@@ -83,219 +87,44 @@ link: http://github.com ou [GitHub](http://github.com)
 ```
 
 
-##Normalização
+
+
+##<a name="Plugins"></a>Plugins
+
+###Colorbox [[website]](http://www.jacklmoore.com/colorbox/)
+Versão utilizado no framework: **v1.4.33**
 ```
-html {}
-body {}
+    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.colorbox.min.css">
+    <script type="text/javascript" src="/painel/js/jquery.colorbox-min.js"></script>
+```
 
+###Chosen [[website]](https://harvesthq.github.io/chosen/)
+Versão utilizado no framework: **v1.4.2**
+```
+    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.chosen.min.css">
+    <script type="text/javascript" src="/painel/js/jquery.chosen.min.js"></script>
+```
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
+###pickadate.js [[website]](http://amsul.ca/pickadate.js/)
+Versão utilizado no framework: **v3.1.0**
+```
+    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.picker.date.min.css">
+    <script type="text/javascript" src="/painel/js/picker.js"></script>
+    <script type="text/javascript" src="/painel/js/picker.date.js"></script>
+    <script type="text/javascript" src="/painel/js/picker.date.legacy.js"></script>
+    <script type="text/javascript" src="/painel/js/picker.date.pt_BR.js"></script>
+```
 
+###Tooltipster [[website]](http://iamceege.github.io/tooltipster/)
+Versão utilizado no framework: **v3.3.0**
+```
+    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.tooltipster.min.css">
+    <script type="text/javascript" src="/painel/js/jquery.tooltipster.min.js"></script>
+```
 
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-[hidden],
-template {
-  display: none;
-}
-
-a {
-  background-color: transparent;
-}
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-b,
-strong {
-  font-weight: bold;
-}
-
-dfn {
-  font-style: italic;
-}
-
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-small {
-  font-size: 80%;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-img {
-  border: 0;
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-
-figure {
-  margin: 1em 40px;
-}
-
-hr {
-  box-sizing: content-box;
-  height: 0;
-}
-
-pre {
-  overflow: auto;
-}
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-button {
-  overflow: visible;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-input {
-  line-height: normal;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-input[type="search"] {
-  -webkit-appearance: textfield;
-  box-sizing: content-box;
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-legend {
-  border: 0;
-  padding: 0;
-}
-
-textarea {
-  overflow: auto;
-}
-
-optgroup {
-  font-weight: bold;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-td,
-th {
-  padding: 0;
-}
+###Custom Scrollbar [[website]](http://manos.malihu.gr/jquery-custom-content-scroller/)
+Versão utilizado no framework: **v3.0.9**
+```
+    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.mCustomScrollbar.min.css">
+    <script type="text/javascript" src="/painel/js/jquery.mCustomScrollbar.min.js"></script>
 ```
