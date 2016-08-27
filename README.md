@@ -1,89 +1,61 @@
 ![acsset](https://cloud.githubusercontent.com/assets/5289210/16626620/206d063e-4380-11e6-94c8-47b16162fa1d.png)
 
 
-##Índice
+ACSSET (A CSS Set) é um framework front-end leve, moderno e responsivo.
+-----------------------------------------------------------------------
 
- - [Grid](#Grid)
- - [Tables](#Tables)
- - [Títulos](#Titulos)
- - [Subtítulos](#Subtitulos)
- - [Background](#Background)
- - [Textos](#Textos)
- - [Bordas](#Bordas)
- - [Breadcrumbs](#Breadcrumbs)
- - [Callouts](#Callouts)
- - [Tags](#Tags)
- - [Paginação](#Paginacao)
- - [Accordion](#Accordion)
- - [Tabs](#Tabs)
- - [Buttons](#Buttons)
- - [Ícones](#Icones)
- - [Plugins](#Plugins)
-
-##<a name="Grid"></a>Estrutura
-
-###GRID
-![GRID](https://cloud.githubusercontent.com/assets/7061081/13009120/bf71b7b4-d181-11e5-8a25-5b4ddd350398.jpg)
-```
-<!-- GRID de 1 Colunas -->
-<div class="grid-row">
-  <div class="grid-12"></div>
-</div>
-
-<!-- GRID de 2 Colunas -->
-<div class="grid-row">
-  <div class="grid-3"></div>
-  <div class="grid-9"></div>
-</div>
-
-<!-- GRID de 4 Colunas -->
-<div class="grid-row">
-  <div class="grid-4"></div>
-  <div class="grid-4"></div>
-  <div class="grid-4"></div>
-  <div class="grid-4"></div>
-</div>
-```
+Foi criado para facilitar a vida dos desenvolvedores, acelerando o desenvolvimento na construção de protótipos, sites, sistemas complexos, webapps, etc... Foi projetado mobile-first e é o ponto de partida do desenvolvimento. Nossos Helpers fornecem grande estrutura, poder de personalização e nomenclaturas intuitivas, projetada para ajudar a melhorar a velocidade de desenvolvimento com uma curva de aprendizado pequena.
 
 
+----------
 
 
-##<a name="Plugins"></a>Plugins
+Fizemos um padrão de estilos baseado em Helpers e não componentes prontos. Aprimoramos os detalhes, estruturas, animações e transições, fornecendo um experiência mais agradável para os desenvolvedores.
+Para facilitar o entendimento, criamos uma documentação detalhada com exemplos de código específicos para ajudar os desenvolvedores.
 
-###Colorbox [[website]](http://www.jacklmoore.com/colorbox/)
-Versão utilizado no framework: **v1.4.33**
-```
-    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.colorbox.min.css">
-    <script type="text/javascript" src="/painel/js/jquery.colorbox-min.js"></script>
-```
 
-###Chosen [[website]](https://harvesthq.github.io/chosen/)
-Versão utilizado no framework: **v1.4.2**
-```
-    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.chosen.min.css">
-    <script type="text/javascript" src="/painel/js/jquery.chosen.min.js"></script>
-```
+----------
 
-###pickadate.js [[website]](http://amsul.ca/pickadate.js/)
-Versão utilizado no framework: **v3.1.0**
-```
-    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.picker.date.min.css">
-    <script type="text/javascript" src="/painel/js/picker.js"></script>
-    <script type="text/javascript" src="/painel/js/picker.date.js"></script>
-    <script type="text/javascript" src="/painel/js/picker.date.legacy.js"></script>
-    <script type="text/javascript" src="/painel/js/picker.date.pt_BR.js"></script>
-```
 
-###Tooltipster [[website]](http://iamceege.github.io/tooltipster/)
-Versão utilizado no framework: **v3.3.0**
-```
-    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.tooltipster.min.css">
-    <script type="text/javascript" src="/painel/js/jquery.tooltipster.min.js"></script>
-```
+É Open Source, e sempre será, pode ver como foi elaborado no Github e nos ajudar com melhorias, sugestões e bugs, qualquer colaboração é bem vinda. 
+ACSSET é licenciado sob a licença MIT. Sendo assim, você pode usar, modificar e redistribuir sem problemas.
 
-###Custom Scrollbar [[website]](http://manos.malihu.gr/jquery-custom-content-scroller/)
-Versão utilizado no framework: **v3.0.9**
-```
-    <link rel="stylesheet" type="text/css" href="/painel/css/jquery.mCustomScrollbar.min.css">
-    <script type="text/javascript" src="/painel/js/jquery.mCustomScrollbar.min.js"></script>
-```
+
+----------
+
+
+É leve, apenas 19kb, sendo super rápido para carregar e você poder utilizar. O ACSSET também suporta os principais navegadores modernos:
+
+ - Chrome 
+ - IE 9 + 
+ - Firefox 
+ - Safari
+
+
+----------
+
+
+Nós baseamos nossa grid no Bootstrap v4-alpha, que possui um sistema de grid poderoso e mobile-first para a construção de layouts de diferentes formas e tamanhos. Possui 12 colunas e vários media-query para a criação de breakpoints:
+
+ - Extra small < 544px  
+ - Small ≥ 544px  
+ - Medium ≥ 768px 
+ - Large ≥ 992px
+ - Extra large ≥ 1200px
+
+
+----------
+
+**Versões:**
+
+v0.0.1 - 2015/08/06
+v0.1.0 - 2015/10/16
+v0.1.1 - 2016/04/19
+v0.1.2 - 2016/07/21
+v0.2.0 - 2016/08/25
+
+
+----------
+
+ 
+> Criado e desenvolvido por [@mxczpiscioneri](http://matheuspiscioneri.com.br) e [@takebo](https://www.behance.net/brunow).
