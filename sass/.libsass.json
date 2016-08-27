@@ -1,0 +1,9 @@
+{
+    "output": {
+        "dir": "../css",
+        "structure": "flat"
+    },
+    "compile": {
+        "style": "expanded"
+    }
+}
