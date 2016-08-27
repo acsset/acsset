@@ -48,14 +48,12 @@ Nós baseamos nossa grid no Bootstrap v4-alpha, que possui um sistema de grid po
 
 **Versões:**
 
-v0.0.1 - 2015/08/06
-v0.1.0 - 2015/10/16
-v0.1.1 - 2016/04/19
-v0.1.2 - 2016/07/21
-v0.2.0 - 2016/08/25
+ - v0.0.1 - 2015/08/06
+ - v0.1.0 - 2015/10/16
+ - v0.1.1 - 2016/04/19
+ - v0.1.2 - 2016/07/21
+ - v0.2.0 - 2016/08/25
 
-
-----------
 
  
 > Criado e desenvolvido por [@mxczpiscioneri](http://matheuspiscioneri.com.br) e [@takebo](https://www.behance.net/brunow).
