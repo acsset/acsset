@@ -1054,7 +1054,7 @@ html {
  */
 
 .bd-radius-circle {
-  @include prefixer("border-radius", "50%");
+  @include prefixer("border-radius", 50%);
 }
 
 .bd-radius-xl {
