@@ -1,0 +1,44 @@
+{
+  "name": "acsset",
+  "version": "0.2.1",
+  "description": "ACSSET (A CSS Set) é um framework front-end leve, moderno e responsivo.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "jquery": "1.12.4",
+    "node-sass": "^3.10.0"
+  },
+  "scripts": {
+    "jquery": "browserify node_modules/jquery/dist/jquery.min.js > js/jquery.min.js",
+    "sass:dist": "node-sass --output-style compressed sass/acsset.scss > css/acsset.min.css && node-sass --output-style compact sass/acsset.scss > css/acsset.css",
+    "sass": "npm run sass:dist",
+    "sass:watch": "node-sass -w sass/ -o css/",
+    "acsset:build": "npm run sass:dist && jquery"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "front-end",
+    "responsivo",
+    "helper",
+    "acsset",
+    "boilerplate",
+    "starter kit",
+    "template"
+  ],
+  "contributors": [
+    "Matheus Piscioneri <mxczpiscioneri@gmail.com> (http://matheuspiscioneri.com.br)",
+    "Bruno Wakiyama <takebo@gmail.com> (https://www.behance.net/brunow)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxczpiscioneri/acsset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mxczpiscioneri/acsset/issues"
+  },
+  "homepage": "https://github.com/mxczpiscioneri/acsset#readme"
+}
