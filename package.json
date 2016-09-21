@@ -1,20 +1,25 @@
 {
   "name": "acsset",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "ACSSET (A CSS Set) é um framework front-end leve, moderno e responsivo.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "browserify": "^13.1.0",
-    "jquery": "1.12.4",
-    "node-sass": "^3.10.0"
+    "html5shiv": "^3.7.3",
+    "jquery": "^1.12.4",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^3.10.0",
+    "normalize.css": "^4.2.0"
   },
   "scripts": {
-    "jquery": "browserify node_modules/jquery/dist/jquery.min.js > js/jquery.min.js",
-    "sass:dist": "node-sass --output-style compressed sass/acsset.scss > css/acsset.min.css && node-sass --output-style compact sass/acsset.scss > css/acsset.css",
-    "sass": "npm run sass:dist",
-    "sass:watch": "node-sass -w sass/ -o css/",
-    "acsset:build": "npm run sass:dist && jquery"
+    "reset": "rm -rf css && rm -rf js",
+    "jquery": "mkdirp js && cp node_modules/jquery/dist/jquery.min.js js/",
+    "html5shiv": "mkdirp js && cp node_modules/html5shiv/dist/html5shiv.min.js js/",
+    "normalize": "mkdirp css && cp node_modules/normalize.css/normalize.css css/",
+    "sass": "mkdirp css && node-sass --output-style compressed sass/acsset.scss > css/acsset.min.css && node-sass --output-style compact sass/acsset.scss > css/acsset.css",
+    "sass:watch": "node-sass -w sass/acsset.scss -o css/",
+    "acsset:build": "npm run sass && npm run jquery && npm run html5shiv && npm run normalize",
+    "postinstall": "npm run acsset:build"
   },
   "keywords": [
     "css",
