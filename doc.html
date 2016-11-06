@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="doc">
+<head>
+  <meta charset="UTF-8">
+  <title>Acsset Documentation</title>
+  <link rel="stylesheet" href="https://unpkg.com/acsset@0.2.1/css/acsset.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <style>
+    body{font-family:"roboto";}
+    a{text-decoration: none;}
+    .code{}
+  </style>
+</head>
+<body class="text-default">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-xs-10">
+
+
+      <h1>Framework Documentation</h1>
+
+      <h1 class="text-primary margin-top-lg weight-medium" id="gettingStarted">Getting Started</h1>
+      <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+        <p>General size abbreviations:</p>
+<pre>
+  xxl = extra extra large
+  xl = extra large
+  lg = large
+  md = medium
+  sm = small
+  xs = extra small
+  xxs = extra extra small
+</pre>
+      </div>
+
+      <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="grids">Grids</h1>
+      <p>General grid prefix <span class="text-white bg-secondary padding-left-xs padding-right-xs bd-radius-sm">.grid-</span></p>
+      <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+        <div>
+          <p>.grid-container - max-width: 1200px</p>
+          <p>.grid-container-fluid - 100% width</p>
+        </div>
+        <div class="grid-container align-center">
+          <div class="grid-row text-xs">
+            <div class="grid-xs-12"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-12</p></div>
+          </div>
+          <div class="grid-row text-xs">
+            <div class="grid-xs-6"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-6</p></div>
+            <div class="grid-xs-6"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-6</p></div>
+          </div>
+          <div class="grid-row text-xs">
+            <div class="grid-xs-4"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-4</p></div>
+            <div class="grid-xs-4"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-4</p></div>
+            <div class="grid-xs-4"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-4</p></div>
+          </div>
+          <div class="grid-row text-xs">
+            <div class="grid-xs-3"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-3</p></div>
+            <div class="grid-xs-3"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-3</p></div>
+            <div class="grid-xs-3"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-3</p></div>
+            <div class="grid-xs-3"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-3</p></div>
+          </div>
+          <div class="grid-row text-xs">
+            <div class="grid-xs-2"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-2</p></div>
+            <div class="grid-xs-2"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-2</p></div>
+            <div class="grid-xs-2"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-2</p></div>
+            <div class="grid-xs-2"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-2</p></div>
+            <div class="grid-xs-2"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-2</p></div>
+            <div class="grid-xs-2"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-2</p></div>
+          </div>
+          <div class="grid-row text-xs">
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+            <div class="grid-xs-1"><p class="bg-light padding-xs bd-xs bd-solid bd-gray">.grid-xs-1</p></div>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="typeScale">Type Scale</h1>
+      <p>General text prefix <span class="text-white bg-secondary padding-left-xs padding-right-xs bd-radius-sm">.text-</span></p>
+      <h2 class="weight-medium">Text Size</h2>
+      <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+        <p class="text-xl">.text-xl</p>
+        <p class="text-lg">.text-lg</p>
+        <p class="text-md">.text-md</p>
+        <p class="text-sm">.text-sm</p>
+        <p class="text-xs">.text-xs</p>
+        <p class="text-xxs">.text-xxs</p>
+      </div>
+      <div class="modifier bd-xs bd-solid bd-lightgray block padding-md">
+        <input class="bd-xs bd-solid bd-lightgray padding-sm" type="text" name="text-size" ng-model="textSizeClass" ng-init="textSizeClass = 'text-sm'">
+      </div>
+      <div class="output source bd-xs bd-solid bd-lightgray block padding-left-md">
+        <p class="{{textSizeClass}}">live example</p>
+      </div>
+      <code class="code source bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;p class="{{textSizeClass}}"&gt;live example&lt;/p&gt;
+</pre>
+      </code>
+
+
+      <h2 class="weight-medium">Text Color</h2>
+      <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+        <p class="text-default">.text-default</p>
+        <p class="text-primary">.text-primary</p>
+        <p class="text-secondary">.text-secondary</p>
+        <p class="text-white bg-dark">.text-white</p>
+        <p class="text-whitelight">.text-whitelight</p>
+        <p class="text-light bg-dark">.text-light</p>
+        <p class="text-lightgray">.text-lightgray</p>
+        <p class="text-gray">.text-gray</p>
+        <p class="text-darkgray">.text-darkgray</p>
+        <p class="text-dark">.text-dark</p>
+        <p class="text-red">.text-red</p>
+        <p class="text-yellow">.text-yellow</p>
+        <p class="text-disabled">.text-disabled</p>
+      </div>
+      <code class="code bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;p class="text-default"&gt;.text-default&lt;/p&gt;
+  &lt;p class="text-primary"&gt;.text-primary&lt;/p&gt;
+  &lt;p class="text-secondary"&gt;.text-secondary&lt;/p&gt;
+  &lt;p class="text-white"&gt;.text-white&lt;/p&gt;
+  &lt;p class="text-whitelight"&gt;.text-whitelight&lt;/p&gt;
+  &lt;p class="text-light"&gt;.text-light&lt;/p&gt;
+  &lt;p class="text-lightgray"&gt;.text-lightgray&lt;/p&gt;
+  &lt;p class="text-gray"&gt;.text-gray&lt;/p&gt;
+  &lt;p class="text-darkgray"&gt;.text-darkgray&lt;/p&gt;
+  &lt;p class="text-dark"&gt;.text-dark&lt;/p&gt;
+  &lt;p class="text-red"&gt;.text-red&lt;/p&gt;
+  &lt;p class="text-yellow"&gt;.text-yellow&lt;/p&gt;
+  &lt;p class="text-disabled"&gt;.text-disabled&lt;/p&gt;
+</pre>
+      </code>
+
+      <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="typography">Typography</h1>
+      <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+        <p class="weight-regular">.weight-regular</p>
+        <p class="weight-medium">.weight-medium</p>
+        <p class="bold">.bold</p>
+        <p class="italic">.italic</p>
+        <p class="underline">.underline</p>
+        <p class="line-through">.line-through</p>
+        <p class="uppercase">.uppercase</p>
+        <p class="lowercase">.lowercase</p>
+        <p class="ellipsis" style="width:200px;">.ellipsis - Incididunt, molestias ornare molestiae nulla per ultricies alias neque viverra sodales commodo, fermentum aute eligendi aliquid? Tenetur magnis senectus nobis libero eget quis in rerum fugiat inceptos! Esse odio consectetur fusce, illo, nullam provident ex maiores lorem facilis eaque diamlorem, recusandae aliquip accusamus fringilla proin ea curae veniam? Litora venenatis fugiat arcu? Turpis vero, dictumst? Corporis, nunc nihil donec, iusto, blanditiis commodi suscipit velit, tellus, corporis diam phasellus vitae augue! Wisi phasellus, ipsum vel. Euismod, a tincidunt explicabo, repellat perferendis.</p>
+      </div>
+      <code class="code bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;p class="weight-regular"&gt;.weight-regular&lt;/p&gt;
+  &lt;p class="weight-medium"&gt;.weight-medium&lt;/p&gt;
+  &lt;p class="bold"&gt;.bold&lt;/p&gt;
+  &lt;p class="italic"&gt;.italic&lt;/p&gt;
+  &lt;p class="underline"&gt;.underline&lt;/p&gt;
+  &lt;p class="line-through"&gt;.line-through&lt;/p&gt;
+  &lt;p class="uppercase"&gt;.uppercase&lt;/p&gt;
+  &lt;p class="lowercase"&gt;.lowercase&lt;/p&gt;
+  &lt;p class="ellipsis"&gt;.ellipsis&lt;/p&gt;
+</pre>
+        </code>
+
+        <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="align">Align</h1>
+        <p>General align prefix <span class="text-white bg-secondary padding-left-xs padding-right-xs bd-radius-sm">.align-</span></p>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <p class="align-left">.align-left</p>
+          <p class="align-center">.align-center</p>
+          <p class="align-right">.align-right</p>
+          <div>
+            <span class="inline-block text-xs align-top">.align-top</span>
+            <span class="inline-block align-texttop">.align-texttop</span>
+            <span class="inline-block text-xl align-middle">.align-middle</span>
+            <span class="inline-block align-bottom">.align-bottom</span>
+            <span class="inline-block align-textbottom">.align-textbottom</span>
+          </div>
+        </div>
+        <code class="code bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;p class="align-left"&gt;.align-left&lt;/p&gt;
+  &lt;p class="align-center"&gt;.align-center&lt;/p&gt;
+  &lt;p class="align-right"&gt;.align-right&lt;/p&gt;
+  &lt;p class="align-top"&gt;.align-top&lt;/p&gt;
+  &lt;p class="align-texttop"&gt;.align-texttop&lt;/p&gt;
+  &lt;p class="align-middle"&gt;.align-middle&lt;/p&gt;
+  &lt;p class="align-bottom"&gt;.align-bottom&lt;/p&gt;
+  &lt;p class="align-textbottom"&gt;.align-textbottom&lt;/p&gt;
+</pre>
+        </code>
+
+        <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="margin">Margin</h1>
+        <p>General margin prefix <span class="text-white bg-secondary padding-left-xs padding-right-xs bd-radius-sm">.margin-</span></p>
+        <p>A margin consists of its <pre>[ side-size ]</pre> properties.</p>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <div>.margin-xl</div>
+          <div>.margin-top-xl</div>
+          <div>.margin-right-xl</div>
+          <div>.margin-bottom-xl</div>
+          <div>.margin-left-xl</div>
+
+          <div>.margin-lg</div>
+          <div>.margin-top-lg</div>
+          <div>.margin-right-lg</div>
+          <div>.margin-bottom-lg</div>
+          <div>.margin-left-lg</div>
+
+          <div>.margin-md</div>
+          <div>.margin-top-md</div>
+          <div>.margin-right-md</div>
+          <div>.margin-bottom-md</div>
+          <div>.margin-left-md</div>
+
+          <div>.margin-sm</div>
+          <div>.margin-top-sm</div>
+          <div>.margin-right-sm</div>
+          <div>.margin-bottom-sm</div>
+          <div>.margin-left-sm</div>
+
+          <div>.margin-xs</div>
+          <div>.margin-top-xs</div>
+          <div>.margin-right-xs</div>
+          <div>.margin-bottom-xs</div>
+          <div>.margin-left-xs</div>
+        </div>
+        <code class="code bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;div class="margin-xl"&gt;.margin-xl&lt;/div&gt;
+  &lt;div class="margin-top-xl"&gt;.margin-top-xl&lt;/div&gt;
+  &lt;div class="margin-right-xl"&gt;.margin-right-xl&lt;/div&gt;
+  &lt;div class="margin-bottom-xl"&gt;.margin-bottom-xl&lt;/div&gt;
+  &lt;div class="margin-left-xl"&gt;.margin-left-xl&lt;/div&gt;
+
+  &lt;div class="margin-lg"&gt;.margin-lg&lt;/div&gt;
+  &lt;div class="margin-top-lg"&gt;.margin-top-lg&lt;/div&gt;
+  &lt;div class="margin-right-lg"&gt;.margin-right-lg&lt;/div&gt;
+  &lt;div class="margin-bottom-lg"&gt;.margin-bottom-lg&lt;/div&gt;
+  &lt;div class="margin-left-lg"&gt;.margin-left-lg&lt;/div&gt;
+
+  &lt;div class="margin-md"&gt;.margin-md&lt;/div&gt;
+  &lt;div class="margin-top-md"&gt;.margin-top-md&lt;/div&gt;
+  &lt;div class="margin-right-md"&gt;.margin-right-md&lt;/div&gt;
+  &lt;div class="margin-bottom-md"&gt;.margin-bottom-md&lt;/div&gt;
+  &lt;div class="margin-left-md"&gt;.margin-left-md&lt;/div&gt;
+
+  &lt;div class="margin-sm"&gt;.margin-sm&lt;/div&gt;
+  &lt;div class="margin-top-sm"&gt;.margin-top-sm&lt;/div&gt;
+  &lt;div class="margin-right-sm"&gt;.margin-right-sm&lt;/div&gt;
+  &lt;div class="margin-bottom-sm"&gt;.margin-bottom-sm&lt;/div&gt;
+  &lt;div class="margin-left-sm"&gt;.margin-left-sm&lt;/div&gt;
+
+  &lt;div class="margin-xs"&gt;.margin-xs&lt;/div&gt;
+  &lt;div class="margin-top-xs"&gt;.margin-top-xs&lt;/div&gt;
+  &lt;div class="margin-right-xs"&gt;.margin-right-xs&lt;/div&gt;
+  &lt;div class="margin-bottom-xs"&gt;.margin-bottom-xs&lt;/div&gt;
+  &lt;div class="margin-left-xs"&gt;.margin-left-xs&lt;/div&gt;
+</pre>
+        </code>
+
+        <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="padding">Padding</h1>
+        <p>General padding prefix <span class="text-white bg-secondary padding-left-xs padding-right-xs bd-radius-sm">.padding-</span></p>
+        <p>A padding consists of its <pre>[ side-size ]</pre> properties.</p>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <div>.padding-xl</div>
+          <div>.padding-top-xl</div>
+          <div>.padding-right-xl</div>
+          <div>.padding-bottom-xl</div>
+          <div>.padding-left-xl</div>
+
+          <div>.padding-lg</div>
+          <div>.padding-top-lg</div>
+          <div>.padding-right-lg</div>
+          <div>.padding-bottom-lg</div>
+          <div>.padding-left-lg</div>
+
+          <div>.padding-md</div>
+          <div>.padding-top-md</div>
+          <div>.padding-right-md</div>
+          <div>.padding-bottom-md</div>
+          <div>.padding-left-md</div>
+
+          <div>.padding-sm</div>
+          <div>.padding-top-sm</div>
+          <div>.padding-right-sm</div>
+          <div>.padding-bottom-sm</div>
+          <div>.padding-left-sm</div>
+
+          <div>.padding-xs</div>
+          <div>.padding-top-xs</div>
+          <div>.padding-right-xs</div>
+          <div>.padding-bottom-xs</div>
+          <div>.padding-left-xs</div>
+        </div>
+        <code class="code bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;div class="padding-xl"&gt;.padding-xl&lt;/div&gt;
+  &lt;div class="padding-top-xl"&gt;.padding-top-xl&lt;/div&gt;
+  &lt;div class="padding-right-xl"&gt;.padding-right-xl&lt;/div&gt;
+  &lt;div class="padding-bottom-xl"&gt;.padding-bottom-xl&lt;/div&gt;
+  &lt;div class="padding-left-xl"&gt;.padding-left-xl&lt;/div&gt;
+
+  &lt;div class="padding-lg"&gt;.padding-lg&lt;/div&gt;
+  &lt;div class="padding-top-lg"&gt;.padding-top-lg&lt;/div&gt;
+  &lt;div class="padding-right-lg"&gt;.padding-right-lg&lt;/div&gt;
+  &lt;div class="padding-bottom-lg"&gt;.padding-bottom-lg&lt;/div&gt;
+  &lt;div class="padding-left-lg"&gt;.padding-left-lg&lt;/div&gt;
+
+  &lt;div class="padding-md"&gt;.padding-md&lt;/div&gt;
+  &lt;div class="padding-top-md"&gt;.padding-top-md&lt;/div&gt;
+  &lt;div class="padding-right-md"&gt;.padding-right-md&lt;/div&gt;
+  &lt;div class="padding-bottom-md"&gt;.padding-bottom-md&lt;/div&gt;
+  &lt;div class="padding-left-md"&gt;.padding-left-md&lt;/div&gt;
+
+  &lt;div class="padding-sm"&gt;.padding-sm&lt;/div&gt;
+  &lt;div class="padding-top-sm"&gt;.padding-top-sm&lt;/div&gt;
+  &lt;div class="padding-right-sm"&gt;.padding-right-sm&lt;/div&gt;
+  &lt;div class="padding-bottom-sm"&gt;.padding-bottom-sm&lt;/div&gt;
+  &lt;div class="padding-left-sm"&gt;.padding-left-sm&lt;/div&gt;
+
+  &lt;div class="padding-xs"&gt;.padding-xs&lt;/div&gt;
+  &lt;div class="padding-top-xs"&gt;.padding-top-xs&lt;/div&gt;
+  &lt;div class="padding-right-xs"&gt;.padding-right-xs&lt;/div&gt;
+  &lt;div class="padding-bottom-xs"&gt;.padding-bottom-xs&lt;/div&gt;
+  &lt;div class="padding-left-xs"&gt;.padding-left-xs&lt;/div&gt;
+</pre>
+        </code>
+
+        <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="border">Border</h1>
+        <p>General border prefix <span class="text-white bg-secondary padding-left-xs padding-right-xs bd-radius-sm">.bd-</span>. A border consists of its <pre>[ size ] [ style ] [ color ] [ radius ]</pre> properties.</p>
+        <h2 class="weight-medium">Border Size & Side</h2>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <div class="bd-xl">.bd-xl</div>
+          <div class="bd-top-xl">.bd-top-xl</div>
+          <div class="bd-right-xl">.bd-right-xl</div>
+          <div class="bd-bottom-xl">.bd-bottom-xl</div>
+          <div class="bd-left-xl">.bd-left-xl</div>
+
+          <div class="bd-lg">.bd-lg</div>
+          <div class="bd-top-lg">.bd-top-lg</div>
+          <div class="bd-right-lg">.bd-right-lg</div>
+          <div class="bd-bottom-lg">.bd-bottom-lg</div>
+          <div class="bd-left-lg">.bd-left-lg</div>
+
+          <div class="bd-md">.bd-md</div>
+          <div class="bd-top-md">.bd-top-md</div>
+          <div class="bd-right-md">.bd-right-md</div>
+          <div class="bd-bottom-md">.bd-bottom-md</div>
+          <div class="bd-left-md">.bd-left-md</div>
+
+          <div class="bd-sm">.bd-sm</div>
+          <div class="bd-top-sm">.bd-top-sm</div>
+          <div class="bd-right-sm">.bd-right-sm</div>
+          <div class="bd-bottom-sm">.bd-bottom-sm</div>
+          <div class="bd-left-sm">.bd-left-sm</div>
+
+          <div class="bd-xs">.bd-xs</div>
+          <div class="bd-top-xs">.bd-top-xs</div>
+          <div class="bd-right-xs">.bd-right-xs</div>
+          <div class="bd-bottom-xs">.bd-bottom-xs</div>
+          <div class="bd-left-xs">.bd-left-xs</div>
+        </div>
+
+        <h2 class="weight-medium">Border Style</h2>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <div class="bd-solid">.bd-solid</div>
+          <div class="bd-top-solid">.bd-top-solid</div>
+          <div class="bd-right-solid">.bd-right-solid</div>
+          <div class="bd-bottom-solid">.bd-bottom-solid</div>
+          <div class="bd-left-solid">.bd-left-solid</div>
+
+          <div class="bd-dashed">.bd-dashed</div>
+          <div class="bd-top-dashed">.bd-top-dashed</div>
+          <div class="bd-right-dashed">.bd-right-dashed</div>
+          <div class="bd-bottom-dashed">.bd-bottom-dashed</div>
+          <div class="bd-left-dashed">.bd-left-dashed</div>
+
+          <div class="bd-dotted">.bd-dotted</div>
+          <div class="bd-top-dotted">.bd-top-dotted</div>
+          <div class="bd-right-dotted">.bd-right-dotted</div>
+          <div class="bd-bottom-dotted">.bd-bottom-dotted</div>
+          <div class="bd-left-dotted">.bd-left-dotted</div>
+        </div>
+
+        <h2 class="weight-medium">Border Color</h2>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <div class="bd-default">.bd-default</div>
+          <div class="bd-primary">.bd-primary</div>
+          <div class="bd-secondary">.bd-secondary</div>
+          <div class="bd-white">.bd-white</div>
+          <div class="bd-whitelight">.bd-whitelight</div>
+          <div class="bd-light">.bd-light</div>
+          <div class="bd-lightgray">.bd-lightgray</div>
+          <div class="bd-gray">.bd-gray</div>
+          <div class="bd-darkgray">.bd-darkgray</div>
+          <div class="bd-dark">.bd-dark</div>
+          <div class="bd-red">.bd-red</div>
+          <div class="bd-yellow">.bd-yellow</div>
+          <div class="bd-disabled">.bd-disabled</div>
+          <div class="bd-transparent">.bd-transparent</div>
+        </div>
+
+        <h2 class="weight-medium">Border Radius</h2>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <div class="grid-row">
+            <div class="grid-xs-2">
+              <div class="bg-darkgray padding-top-xl padding-bottom-xl align-center text-white text-sm bd-radius-xs">.bd-radius-xs</div>
+            </div>
+            <div class="grid-xs-2">
+              <div class="bg-darkgray padding-top-xl padding-bottom-xl align-center text-white text-sm bd-radius-sm">.bd-radius-sm</div>
+            </div>
+            <div class="grid-xs-2">
+              <div class="bg-darkgray padding-top-xl padding-bottom-xl align-center text-white text-sm bd-radius-md">.bd-radius-md</div>
+            </div>
+            <div class="grid-xs-2">
+              <div class="bg-darkgray padding-top-xl padding-bottom-xl align-center text-white text-sm bd-radius-lg">.bd-radius-lg</div>
+            </div>
+            <div class="grid-xs-2">
+              <div class="bg-darkgray padding-top-xl padding-bottom-xl align-center text-white text-sm bd-radius-xl">.bd-radius-xl</div>
+            </div>
+            <div class="grid-xs-2">
+              <div class="bg-darkgray padding-top-xl padding-bottom-xl align-center text-white text-sm bd-radius-circle">.bd-radius-circle</div>
+            </div>
+          </div>
+        </div>
+        <code class="code bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;div class="bd-radius-xs"&gt;.bd-radius-xs&lt;/div&gt;
+  &lt;div class="bd-radius-sm"&gt;.bd-radius-sm&lt;/div&gt;
+  &lt;div class="bd-radius-md"&gt;.bd-radius-md&lt;/div&gt;
+  &lt;div class="bd-radius-lg"&gt;.bd-radius-lg&lt;/div&gt;
+  &lt;div class="bd-radius-xl"&gt;.bd-radius-xl&lt;/div&gt;
+  &lt;div class="bd-radius-circle"&gt;.bd-radius-circle&lt;/div&gt;
+</pre>
+        </code>
+
+        <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="display">Display</h1>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <div class="block bd-xs bd-solid bd-lightgray bg-light padding-xs margin-bottom-lg">.block</div>
+          <div class="inline-block bd-xs bd-solid bd-lightgray bg-light padding-xs">.inline-block</div>
+          <div class="inline-block bd-xs bd-solid bd-lightgray bg-light padding-xs">.inline-block</div>
+          <div class="inline-block bd-xs bd-solid bd-lightgray bg-light padding-xs">.inline-block</div>
+          <div class="inline-block bd-xs bd-solid bd-lightgray bg-light padding-xs">.inline-block</div>
+          <div class="hidden">.hidden</div>
+          <div class="invisible">.invisible</div>
+
+          <div class="display-table bd-xs bd-solid bd-lightgray bg-light">
+            <div class="table-cell"><span class="padding-xs">.display-table</span>
+            <div class="display-table padding-xs">
+                <div class="table-cell bd-xs bd-solid bd-lightgray bg-white padding-xs">.table-cell</div><div class="table-cell bd-xs bd-solid bd-lightgray bg-white padding-xs">.table-cell</div><div class="table-cell bd-xs bd-solid bd-lightgray bg-white padding-xs">.table-cell</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <code class="code bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;div class="block"&gt;.block&lt;/div&gt;
+  &lt;div class="hidden"&gt;.hidden&lt;/div&gt;
+  &lt;div class="invisible"&gt;.invisible&lt;/div&gt;
+  &lt;div class="inline-block"&gt;.inline-block&lt;/div&gt;
+  &lt;div class="table-cell"&gt;.table-cell&lt;/div&gt;
+  &lt;div class="display-table"&gt;.display-table&lt;/div&gt;
+</pre>
+        </code>
+
+        <h1 class="text-primary margin-top-lg padding-top-lg weight-medium" id="reset">Reset</h1>
+        <p>General reset prefix <span class="text-white bg-secondary padding-left-xs padding-right-xs bd-radius-sm">.clear</span></p>
+        <div class="container padding-sm bd-xs bd-solid bd-lightgray">
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-margin">.clear-margin</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-margin">{ margin: 0 !important; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-padding">.clear-padding</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-padding">{ padding: 0 !important; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-border">.clear-border</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-border">{ border: none !important; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-float">.clear-float</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-float">{ float: none !important; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-width">.clear-width</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-width">{ width: auto !important; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-left">.clear-left</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-left">{ clear: left; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-right">.clear-right</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-right">{ clear: right; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-both">.clear-both</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-both">{ clear: both; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-line-height">.clear-line-height</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-both">{ line-height: normal; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-bd-radius-tl">.clear-bd-radius-tl</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-both">{ border-top-left-radius: 0 !important; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-bd-radius-tr">.clear-bd-radius-tr</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-both">{ border-top-right-radius: 0 !important; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-bd-radius-bl">.clear-bd-radius-bl</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-both">{ border-bottom-left-radius: 0 !important; }</div>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-xs-3">
+              <div class="clear-bd-radius-br">.clear-bd-radius-br</div>
+            </div>
+            <div class="grid-xs-9">
+              <div class="clear-both">{ border-bottom-right-radius: 0 !important; }</div>
+            </div>
+          </div>
+
+        </div>
+        <code class="code bd-xs bd-solid bd-lightgray block">
+<pre>
+  &lt;div class="clear-margin"&gt;.clear-margin&lt;/div&gt;
+  &lt;div class="clear-padding"&gt;.clear-padding&lt;/div&gt;
+  &lt;div class="clear-border"&gt;.clear-border&lt;/div&gt;
+  &lt;div class="clear-float"&gt;.clear-float&lt;/div&gt;
+  &lt;div class="clear-width"&gt;.clear-width&lt;/div&gt;
+  &lt;div class="clear-left"&gt;.clear-left&lt;/div&gt;
+  &lt;div class="clear-right"&gt;.clear-right&lt;/div&gt;
+  &lt;div class="clear-both"&gt;.clear-both&lt;/div&gt;
+</pre>
+        </code>
+
+      </div>
+      <div class="grid-xs-2">
+        <div class="fixed position-top">
+          <ul class="list">
+            <li ng-controller="listIntro">
+              <p class="weight-medium margin-bottom-xs"><a href="{{introsTitle.anchor}}" class="text-md text-primary">{{introsTitle.name}}</a></p>
+              <ul class="list">
+                <li class="padding-top-xs padding-bottom-xs" ng-repeat="intro in intros"><a href="{{intro.anchor}}" class="text-xs text-default weight-medium inline-block padding-top-xs padding-bottom-xs">{{intro.name}}</a></li>
+              </ul>
+            </li>
+            <li ng-controller="listGrids" class="padding-top-sm">
+              <p class="weight-medium"><a href="{{gridsTitle.anchor}}" class="text-md text-primary">{{gridsTitle.name}}</a></p>
+            </li>
+            <li ng-controller="listHelpers" class="padding-top-sm">
+              <p class="weight-medium margin-bottom-xs"><a href="{{helpersTitle.anchor}}" class="text-md text-primary">{{helpersTitle.name}}</a></p>
+              <ul class="list">
+                <li class="padding-top-xs padding-bottom-xs" ng-repeat="helper in helpers"><a href="{{helper.anchor}}" class="text-xs text-default weight-medium inline-block padding-top-xs padding-bottom-xs">{{helper.name}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+  var app = angular.module("doc", []);
+
+  //introduciton
+  app.controller('listIntro', function($scope) {
+    $scope.introsTitle = {name:"Introduction", anchor:'#Intro'},
+    $scope.intros = [
+      {name:'Getting Started', anchor:'#gettingStarted'}
+    ];
+  });
+
+  //helpers
+  app.controller('listHelpers', function($scope) {
+    $scope.helpersTitle = {name:"Helpers", anchor:'#helpers'},
+    $scope.helpers = [
+      {name:'Type Scale', anchor:'#typeScale'},
+      {name:'Typography', anchor:'#typography'},
+      {name:'Align', anchor:'#align'},
+      {name:'Margin', anchor:'#margin'},
+      {name:'Padding', anchor:'#padding'},
+      {name:'Border', anchor:'#border'},
+      {name:'Display', anchor:'#display'},
+      {name:'Reset', anchor:'#reset'}
+    ];
+  });
+
+  //grids
+  app.controller('listGrids', function($scope) {
+    $scope.gridsTitle = {name:'Grids', anchor:'#grids'}
+  });
+</script>
+
+</body>
+</html>
