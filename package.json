@@ -8,8 +8,7 @@
     "node-sass": "^3.10.0"
   },
   "scripts": {
-    "reset": "rm -rf css",
-    "sass": "mkdirp css && node-sass --output-style compressed sass/acsset.scss > css/acsset.min.css && node-sass --output-style compact sass/acsset.scss > css/acsset.css",
+    "sass": "node-sass --output-style compressed sass/acsset.scss > css/acsset.min.css && node-sass --output-style expanded sass/acsset.scss > css/acsset.css",
     "sass:watch": "node-sass -w sass/acsset.scss -o css/",
     "acsset:build": "npm run sass",
     "postinstall": "npm run acsset:build"

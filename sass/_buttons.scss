@@ -1,0 +1,75 @@
+/* Button
+  ========================================================================== */
+
+/**
+ * Button Size
+ */
+
+.btn {
+  margin: 0;
+  border: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  @include prefixer("border-radius", $border-lg);
+}
+
+.btn-lg {
+  @extend .btn;
+  font-size: px-to-em(18);
+  line-height: $height-lg;
+  height: $height-lg;
+}
+
+.btn-md {
+  @extend .btn;
+  font-size: px-to-em(16);
+  line-height: $height-md;
+  height: $height-md;
+}
+
+.btn-sm {
+  @extend .btn;
+  font-size: px-to-em(14);
+  line-height: $height-sm;
+  height: $height-sm;
+}
+
+/**
+ * Button Style
+ */
+
+.btn-default {
+  background-color: $color-darkgray;
+  color: $color-white;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.btn-secondary {
+  background-color: $color-secondary;
+  color: $color-white;
+}
+
+.btn-link {
+  background: transparent;
+  color: $color-primary;
+}
+
+/**
+ * Button State
+ */
+
+.btn {
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 0.8;
+  }
+}

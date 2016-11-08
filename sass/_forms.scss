@@ -1,0 +1,106 @@
+/* Form
+  ========================================================================== */
+
+.field {
+  width: 100%;
+  padding: 0 15px;
+  color: $color-darkgray;
+  border: $border-xs solid $color-gray;
+  @include prefixer("border-radius", $border-lg);
+  background: $color-white;
+  @include placeholder {
+    color: $color-light;
+  }
+  &:focus {
+    border-color: $color-secondary;
+    color: $color-default;
+  }
+  &.error {
+    border: $border-xs solid $color-red;
+  }
+  &.valid {
+    border: $border-xs solid $color-primary;
+  }
+  &[disabled] {
+    opacity: 0.3;
+  }
+}
+
+.text-field-lg {
+  font-size: px-to-em(18);
+  line-height: $height-lg;
+  height: $height-lg;
+}
+
+.text-field-md {
+  font-size: px-to-em(16);
+  line-height: $height-md;
+  height: $height-md;
+}
+
+.text-field-sm {
+  font-size: px-to-em(14);
+  line-height: $height-sm;
+  height: $height-sm;
+}
+
+select.field option[disabled] {
+  color: $color-gray;
+}
+
+.textarea {
+  min-height: $height-xl;
+}
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+.input-group-addon, .input-group .field {
+  display: table-cell;
+}
+
+.input-group-addon:not(:first-child):not(:last-child), .input-group .field:not(:first-child):not(:last-child) {
+  @include prefixer("border-radius", 0);
+}
+
+.input-group-addon {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+  &:first-child {
+    border-right: 0;
+  }
+  &:last-child {
+    border-left: 0;
+  }
+  padding: 2px 8px;
+  font-size: px-to-em(14);
+  font-weight: normal;
+  line-height: $line-height;
+  color: $color-darkgray;
+  text-align: center;
+  background-color: $color-lightgray;
+  border: $border-xs solid $color-gray;
+  @include prefixer("border-radius", $border-lg);
+}
+
+.input-group .field:first-child, .input-group-addon:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group .field:last-child, .input-group-addon:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group .field {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}

@@ -1,0 +1,38 @@
+//Globals
+$em: 16;
+$line-height: 1.2em;
+
+//Colors
+$color-default: #476a6d;
+$color-primary: #03c142;
+$color-secondary: #738087;
+$color-white: #FFFFFF;
+$color-light: #fafafb;
+$color-lightgray: #dbe4e3;
+$color-gray: #b9bfba;
+$color-darkgray: #4a4a4a;
+$color-dark: #3c3c3c;
+$color-blue: #4a90e2;
+$color-yellow: #f7b32b;
+$color-red: #ef5416;
+
+//Size
+$size-xl: 30px;
+$size-lg: $size-xl / 1.5;
+$size-md: $size-xl / 2;
+$size-sm: $size-xl / 3;
+$size-xs: $size-xl / 6;
+
+//Size Border
+$border-xl: 10px;
+$border-lg: $border-xl / 2;
+$border-md: $border-xl / 3;
+$border-sm: $border-xl / 5;
+$border-xs: $border-xl / 10;
+
+//Size Height
+$height-xl: 60px;
+$height-lg: $height-xl - 10;
+$height-md: $height-lg - 10;
+$height-sm: $height-md - 10;
+$height-xs: $height-sm - 10;

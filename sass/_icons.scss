@@ -1,0 +1,87 @@
+/* Icon
+  ========================================================================== */
+
+/**
+ * Icon Size
+ */
+
+.icon {
+  vertical-align: middle;
+}
+
+.icon-xl {
+  width: $height-xl;
+  height: $height-xl;
+}
+
+.icon-lg {
+  width: $height-lg;
+  height: $height-lg;
+}
+
+.icon-md {
+  width: $height-md;
+  height: $height-md;
+}
+
+.icon-sm {
+  width: $height-sm;
+  height: $height-sm;
+}
+
+.icon-xs {
+  width: $height-xs;
+  height: $height-xs;
+}
+
+/**
+ * Icon Color
+ */
+
+.fill-default {
+  fill: $color-default !important;
+}
+
+.fill-primary {
+  fill: $color-primary !important;
+}
+
+.fill-secondary {
+  fill: $color-secondary !important;
+}
+
+.fill-white {
+  fill: $color-white !important;
+}
+
+.fill-light {
+  fill: $color-light !important;
+}
+
+.fill-lightgray {
+  fill: $color-lightgray !important;
+}
+
+.fill-gray {
+  fill: $color-gray !important;
+}
+
+.fill-darkgray {
+  fill: $color-darkgray !important;
+}
+
+.fill-dark {
+  fill: $color-dark !important;
+}
+
+.fill-blue {
+  fill: $color-blue !important;
+}
+
+.fill-yellow {
+  fill: $color-yellow !important;
+}
+
+.fill-red {
+  fill: $color-red !important;
+}

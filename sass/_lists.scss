@@ -1,0 +1,43 @@
+/* List
+  ========================================================================== */
+
+/**
+ * List Style
+ */
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-horizontal > .list-item {
+  display: inline-block;
+}
+
+/**
+ * List Style
+ */
+
+.list {
+  &.strip .list-item {
+    &:nth-child(even) {
+      background: $color-light;
+    }
+    &:nth-child(odd) {
+      background: $color-white;
+    }
+  }
+  &.clear-padding-top > .list-item:first-child {
+    padding-top: px-to-em($size-sm);
+  }
+  &.clear-padding-bottom > .list-item:last-child {
+    padding-bottom: px-to-em($size-sm);
+  }
+  &.clear-border-top > .list-item:first-child {
+    border-top: 0 !important;
+  }
+  &.clear-border-bottom > .list-item:last-child {
+    border-bottom: 0 !important;
+  }
+}
