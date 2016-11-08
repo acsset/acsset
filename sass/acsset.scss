@@ -3,7 +3,7 @@
  * Licensed under MIT (https://mit-license.org)
  * Designed and built by @mxczpiscioneri and @takebo.
  */
- 
+
 //Sass variables
 @import 'global';
 
@@ -1540,33 +1540,6 @@ select.field option[disabled] {
   display: table;
 }
 
-/**
- * Alignment
- */
-
-.pull-left {
-  float: left !important;
-}
-
-.pull-right {
-  float: right !important;
-}
-
-.position-top {
-  top: 0;
-}
-
-.position-right {
-  right: 0;
-}
-
-.position-bottom {
-  bottom: 0;
-}
-
-.position-left {
-  left: 0;
-}
 
 /* List
   ========================================================================== */
@@ -1657,6 +1630,14 @@ select.field option[disabled] {
 
 .static {
   position: static;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
 }
 
 .position-top {
