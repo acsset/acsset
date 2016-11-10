@@ -76,6 +76,16 @@
   margin-left: px-to-em($size-xl);
 }
 
+.margin-x-xl {
+  margin-left: px-to-em($size-xl);
+  margin-right: px-to-em($size-xl);
+}
+
+.margin-y-xl {
+  margin-top: px-to-em($size-xl);
+  margin-bottom: px-to-em($size-xl);
+}
+
 .margin-lg {
   margin: px-to-em($size-lg);
 }
@@ -94,6 +104,16 @@
 
 .margin-left-lg {
   margin-left: px-to-em($size-lg);
+}
+
+.margin-x-lg {
+  margin-left: px-to-em($size-lg);
+  margin-right: px-to-em($size-lg);
+}
+
+.margin-y-lg {
+  margin-top: px-to-em($size-lg);
+  margin-bottom: px-to-em($size-lg);
 }
 
 .margin-md {
@@ -116,6 +136,16 @@
   margin-left: px-to-em($size-md);
 }
 
+.margin-x-md {
+  margin-left: px-to-em($size-md);
+  margin-right: px-to-em($size-md);
+}
+
+.margin-y-md {
+  margin-top: px-to-em($size-md);
+  margin-bottom: px-to-em($size-md);
+}
+
 .margin-sm {
   margin: px-to-em($size-sm);
 }
@@ -136,6 +166,16 @@
   margin-left: px-to-em($size-sm);
 }
 
+.margin-x-sm {
+  margin-left: px-to-em($size-sm);
+  margin-right: px-to-em($size-sm);
+}
+
+.margin-y-sm {
+  margin-top: px-to-em($size-sm);
+  margin-bottom: px-to-em($size-sm);
+}
+
 .margin-xs {
   margin: px-to-em($size-xs);
 }
@@ -154,6 +194,16 @@
 
 .margin-left-xs {
   margin-left: px-to-em($size-xs);
+}
+
+.margin-x-xs {
+  margin-left: px-to-em($size-xs);
+  margin-right: px-to-em($size-xs);
+}
+
+.margin-y-xs {
+  margin-top: px-to-em($size-xs);
+  margin-bottom: px-to-em($size-xs);
 }
 
 /* Padding
@@ -179,6 +229,16 @@
   padding-left: px-to-em($size-xl);
 }
 
+.padding-x-xl {
+  padding-left: px-to-em($size-xl);
+  padding-right: px-to-em($size-xl);
+}
+
+.padding-y-xl {
+  padding-top: px-to-em($size-xl);
+  padding-bottom: px-to-em($size-xl);
+}
+
 .padding-lg {
   padding: px-to-em($size-lg);
 }
@@ -197,6 +257,16 @@
 
 .padding-left-lg {
   padding-left: px-to-em($size-lg);
+}
+
+.padding-x-lg {
+  padding-left: px-to-em($size-lg);
+  padding-right: px-to-em($size-lg);
+}
+
+.padding-y-lg {
+  padding-top: px-to-em($size-lg);
+  padding-bottom: px-to-em($size-lg);
 }
 
 .padding-md {
@@ -219,6 +289,16 @@
   padding-left: px-to-em($size-md);
 }
 
+.padding-x-md {
+  padding-left: px-to-em($size-md);
+  padding-right: px-to-em($size-md);
+}
+
+.padding-y-md {
+  padding-top: px-to-em($size-md);
+  padding-bottom: px-to-em($size-md);
+}
+
 .padding-sm {
   padding: px-to-em($size-sm);
 }
@@ -239,6 +319,16 @@
   padding-left: px-to-em($size-sm);
 }
 
+.padding-x-sm {
+  padding-left: px-to-em($size-sm);
+  padding-right: px-to-em($size-sm);
+}
+
+.padding-y-sm {
+  padding-top: px-to-em($size-sm);
+  padding-bottom: px-to-em($size-sm);
+}
+
 .padding-xs {
   padding: px-to-em($size-xs);
 }
@@ -257,6 +347,16 @@
 
 .padding-left-xs {
   padding-left: px-to-em($size-xs);
+}
+
+.padding-x-xs {
+  padding-left: px-to-em($size-xs);
+  padding-right: px-to-em($size-xs);
+}
+
+.padding-y-xs {
+  padding-top: px-to-em($size-xs);
+  padding-bottom: px-to-em($size-xs);
 }
 
 /* Background Color
