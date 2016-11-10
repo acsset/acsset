@@ -1182,6 +1182,16 @@ select.field option[disabled] {
   margin-left: 1.875em;
 }
 
+.margin-x-xl {
+  margin-left: 1.875em;
+  margin-right: 1.875em;
+}
+
+.margin-y-xl {
+  margin-top: 1.875em;
+  margin-bottom: 1.875em;
+}
+
 .margin-lg {
   margin: 1.25em;
 }
@@ -1200,6 +1210,16 @@ select.field option[disabled] {
 
 .margin-left-lg {
   margin-left: 1.25em;
+}
+
+.margin-x-lg {
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+}
+
+.margin-y-lg {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
 }
 
 .margin-md {
@@ -1222,6 +1242,16 @@ select.field option[disabled] {
   margin-left: 0.9375em;
 }
 
+.margin-x-md {
+  margin-left: 0.9375em;
+  margin-right: 0.9375em;
+}
+
+.margin-y-md {
+  margin-top: 0.9375em;
+  margin-bottom: 0.9375em;
+}
+
 .margin-sm {
   margin: 0.625em;
 }
@@ -1242,6 +1272,16 @@ select.field option[disabled] {
   margin-left: 0.625em;
 }
 
+.margin-x-sm {
+  margin-left: 0.625em;
+  margin-right: 0.625em;
+}
+
+.margin-y-sm {
+  margin-top: 0.625em;
+  margin-bottom: 0.625em;
+}
+
 .margin-xs {
   margin: 0.3125em;
 }
@@ -1260,6 +1300,16 @@ select.field option[disabled] {
 
 .margin-left-xs {
   margin-left: 0.3125em;
+}
+
+.margin-x-xs {
+  margin-left: 0.3125em;
+  margin-right: 0.3125em;
+}
+
+.margin-y-xs {
+  margin-top: 0.3125em;
+  margin-bottom: 0.3125em;
 }
 
 /* Padding
@@ -1284,6 +1334,16 @@ select.field option[disabled] {
   padding-left: 1.875em;
 }
 
+.padding-x-xl {
+  padding-left: 1.875em;
+  padding-right: 1.875em;
+}
+
+.padding-y-xl {
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+}
+
 .padding-lg {
   padding: 1.25em;
 }
@@ -1302,6 +1362,16 @@ select.field option[disabled] {
 
 .padding-left-lg {
   padding-left: 1.25em;
+}
+
+.padding-x-lg {
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+}
+
+.padding-y-lg {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
 }
 
 .padding-md {
@@ -1324,6 +1394,16 @@ select.field option[disabled] {
   padding-left: 0.9375em;
 }
 
+.padding-x-md {
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+}
+
+.padding-y-md {
+  padding-top: 0.9375em;
+  padding-bottom: 0.9375em;
+}
+
 .padding-sm {
   padding: 0.625em;
 }
@@ -1344,6 +1424,16 @@ select.field option[disabled] {
   padding-left: 0.625em;
 }
 
+.padding-x-sm {
+  padding-left: 0.625em;
+  padding-right: 0.625em;
+}
+
+.padding-y-sm {
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+}
+
 .padding-xs {
   padding: 0.3125em;
 }
@@ -1362,6 +1452,16 @@ select.field option[disabled] {
 
 .padding-left-xs {
   padding-left: 0.3125em;
+}
+
+.padding-x-xs {
+  padding-left: 0.3125em;
+  padding-right: 0.3125em;
+}
+
+.padding-y-xs {
+  padding-top: 0.3125em;
+  padding-bottom: 0.3125em;
 }
 
 /* Background Color
